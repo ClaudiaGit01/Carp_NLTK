@@ -6,7 +6,7 @@ from nltk.corpus import stopwords # elimina los conectores
 from nltk.probability import FreqDist  # calcula frecuencias
 from collections import Counter # calcula frecuencias
 
-texto = "Un párrafo es una unidad de un texto compuesta por una o varias oraciones, que comienza con una mayúscula y que termina con un punto y aparte. Los textos se organizan de manera tal que cada párrafo trata sobre una idea central. Generalmente, la primera oración de cada párrafo suele explicitar cuál es el punto principal que se desarrollará"
+texto = """Un párrafo es una unidad de un texto compuesta por una o varias oraciones, que comienza con una mayúscula y que termina con un punto y aparte. Los textos se organizan de manera tal que cada párrafo trata sobre una idea central. Generalmente, la primera oración de cada párrafo suele explicitar cuál es el punto principal que se desarrollará"""
 
 
 # separa las palabras del texto - Tokeniza
